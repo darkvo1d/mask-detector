@@ -133,3 +133,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/mask-detector.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
