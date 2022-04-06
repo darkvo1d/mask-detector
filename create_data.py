@@ -34,5 +34,5 @@ def create_images(vidPath, photo_path, id, frames):
     else:
         print("Video unable to process")
 
-vipPath = 'dataset/without_mask/sarvang/sarvang.mp4'
+vipPath = 'dataset/with_mask/nick/nick.mp4'
 run(vipPath)
