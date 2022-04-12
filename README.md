@@ -16,14 +16,14 @@ virtualenv venv
 Assuming you are still in project directory
 
 ```python
-venv/Scripts/activate
+venv\Scripts\activate
 ```
 This will activate the virtual environment
 
 Run the below command to install the dependencies
 
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Scripts
