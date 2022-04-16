@@ -82,7 +82,7 @@ time.sleep(2.0)
 
 
 # initialize the WindowCapture class
-wincap = WindowCapture('pics')
+wincap = WindowCapture('Jaspreet Marwah, Terence Yu | Microsoft Teams')
 wincap.list_window_names()
 
 loop_time = time.time()

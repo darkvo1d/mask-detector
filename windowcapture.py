@@ -24,6 +24,9 @@ class WindowCapture:
         self.w = window_rect[2] - window_rect[0]
         self.h = window_rect[3] - window_rect[1]
 
+        self.w = 1920
+        self.h = 1080
+
         # account for the window border and titlebar and cut them off
         border_pixels = 1
         titlebar_pixels = 10
@@ -40,7 +43,7 @@ class WindowCapture:
     def get_screenshot(self):
 
         # get the window image data
-        wDC = win32gui.GetWindowDC(self.hwnd)
+        wDC = win32gui.GetWindowDC(None)
         dcObj = win32ui.CreateDCFromHandle(wDC)
         cDC = dcObj.CreateCompatibleDC()
         dataBitMap = win32ui.CreateBitmap()
