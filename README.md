@@ -60,6 +60,7 @@ python detect_mask_video.py
 ## Model
 
 The developed model is an improvement on the **MobileNetV2** model of the **`tensorflow`** library
+model referenced from https://pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
